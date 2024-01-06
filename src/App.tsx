@@ -1,9 +1,14 @@
+import Navbar from "./components/Navbar"
 
 function App() {
 
-
   return (
-    <div>Portfolio Version-2</div>
+    <div className="App">
+      <Navbar />
+      <div className="content">
+        <h1>App Component</h1>
+      </div>
+    </div>
   )
 }
 
