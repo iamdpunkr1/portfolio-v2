@@ -1,29 +1,34 @@
-// import photo from "../assets/photo.jpg"
-import react from "../assets/react.svg"
-import nodejs from "../assets/nodejs-icon.svg"
-import mongodb from "../assets/mongodb.svg"
-import express from "../assets/express.svg"
+import photo from "../assets/photo.jpg"
+// import react from "../assets/react.svg"
+// import nodejs from "../assets/nodejs-icon.svg"
+// import mongodb from "../assets/mongodb.svg"
+// import express from "../assets/express.svg"
 
 const Hero = () => {
   return (
     <section className="h-screen">
-        <div className="container mx-auto px-20 flex flex-col">
-            <div className="flex justify-around items-center h-full relative">
-                <div className="w-1/2">
-                    <h1 className="text-6xl font-bold text-slate-900"> Full-stack developer </h1>
-                    <p className="text-2xl text-slate-600 mt-8">Hi!, myself Dipankar Prasad and I am a full stack developer
-                     specialised in MERN stack, based in Assam, India</p>
+        <div className="max-w-[1200px] mx-auto  flex flex-col justify-center rounded-lg ">
+            <div className="flex gap-2 h-full ">
+                <div className="w-3/5 p-16 bg-slate-200 rounded-lg">
+                    <h1 className="text-6xl font-bold text-slate-700">Front-End React Developer </h1>
+                    <p className="text-xl text-slate-600 mt-8 w-10/12">
+                     Hi, Myself Dipankar Prasad and I am a Frontend developer
+                     specialised in ReactJS, based in Assam, India
+                     </p>
                 </div>
-                <div className="card  mt-28">
+                <div className="w-2/5 bg-red-300 min-h-full rounded-lg">
+
+                </div>
+                {/* <div className=" card  mt-28">
                     <img src="https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg" alt="Dipankar Prasad" className="w-full h-full"/>
-                </div>
+                </div> */}
                 
             </div>
-            <div className="container mx-auto flex justify-start gap-4">
-                <h1 className="text-4xl font-bold text-slate-900"> Tech stack:</h1>
+            <div className=" flex justify-start items-center bg-indigo-200 rounded-lg  gap-4 mt-2 p-4 py-6">
+                <h1 className="text-3xl font-bold text-slate-700"> Tech stack:</h1>
                {/* reactJS */}
                 <svg
-                 className="w-20 h-20"
+                 className="w-14 h-14"
                     viewBox="0 0 32 32"
                     id="Camada_1"
                     version="1.1"
@@ -57,7 +62,7 @@ const Hero = () => {
 
                 {/* nodejs */}
                 <svg
-                    className="w-20 h-20"
+                    className="w-14 h-14"
                     viewBox="0 0 73 73"
                     version="1.1"
                     xmlns="http://www.w3.org/2000/svg"
@@ -216,7 +221,7 @@ const Hero = () => {
                 
                 {/* MongoDB */}
                 <svg
-                className="w-20 h-20"
+                className="w-14 h-14"
                 viewBox="0 0 73 73"
                 version="1.1"
                 xmlns="http://www.w3.org/2000/svg"
@@ -284,7 +289,7 @@ const Hero = () => {
 
                 {/* Express */}
                 <svg
-                     className="w-20 h-20"
+                     className="w-14 h-14"
                     fill="#000000"
                     viewBox="0 0 24 24"
                     role="img"
@@ -299,7 +304,7 @@ const Hero = () => {
 
                 {/* tailwindCSS */}
                 <svg
-                    className="w-20 h-20"
+                    className="w-14 h-14"
                     viewBox="0 0 32 32"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="#000000"
@@ -317,7 +322,7 @@ const Hero = () => {
 
                 {/* Typescript */}
                 <svg
-                    className="w-20 h-20"
+                    className="w-14 h-14"
                     viewBox="0 0 73 73"
                     version="1.1"
                     xmlns="http://www.w3.org/2000/svg"
@@ -395,10 +400,10 @@ const Hero = () => {
                     </svg>
 
                 {/* <div className="flex justify-around items-center">
-                <img src={react} alt="react" className="w-20 h-20"/>
-                <img src={nodejs} alt="nodejs" className="w-20 h-20"/>
-                <img src={mongodb} alt="mongodb" className="w-20 h-20"/>
-                <img src={express} alt="express" className="w-20 h-20"/>
+                <img src={react} alt="react" className="w-14 h-14"/>
+                <img src={nodejs} alt="nodejs" className="w-14 h-14"/>
+                <img src={mongodb} alt="mongodb" className="w-14 h-14"/>
+                <img src={express} alt="express" className="w-14 h-14"/>
                 </div> */}
             </div>
         </div>

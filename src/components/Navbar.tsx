@@ -2,7 +2,7 @@
 
 const Navbar = () => {
   return (
-    <header className="container-md mx-auto px-20 shadow-md ">
+    <header className="max-w-[1200px] mx-auto rounded-lg bg-emerald-100 shadow-md px-8 my-4">
     <nav className="flex justify-between py-4">
     <div className="h-2">
     <div className="button" data-text="Awesome">
