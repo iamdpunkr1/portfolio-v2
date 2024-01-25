@@ -6,8 +6,8 @@ const Navbar = () => {
     <nav className="flex justify-between py-4">
     <div className="h-2">
     <div className="button" data-text="Awesome">
-        <span className="actual-text">&nbsp;dpunkr&nbsp;</span>
-        <span aria-hidden="true" className="hover-text">&nbsp;dpunkr&nbsp;</span>
+        <span className="actual-text">&nbsp;&lt;dpunkr&gt;&nbsp;</span>
+        <span aria-hidden="true" className="hover-text">&nbsp;&lt;dpunkr&gt;&nbsp;</span>
     </div>
     </div>
       <div className="space-x-2">
