@@ -1,7 +1,7 @@
 
 const TechStack = () => {
   return (
-    <div className=" flex justify-start items-center bg-indigo-200 rounded-lg  gap-4 mt-4 mr-2 p-4 py-6">
+    <div className=" flex justify-start items-center bg-indigo-200 rounded-lg  gap-4  p-4 py-6">
                 <h1 className="text-2xl font-bold text-slate-700 "> Tech Stack |</h1>
                {/* reactJS */}
                 <svg
