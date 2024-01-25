@@ -10,9 +10,9 @@ import TechStack from "../partials/TechStack"
 
 const Hero = () => {
   return (
-    <section className="h-screen">
+    <section className="">
         <div className="max-w-[1200px] mx-auto ">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:grid-rows-1 gap-4 transition-all duration-500">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:grid-rows-1 gap-2 md:lg:gap-4 transition-all duration-500">
                 
                 <div className="col-auto md:col-start-1 md:col-end-2 lg:col-start-1 lg:col-end-3 ">
                     <About/>

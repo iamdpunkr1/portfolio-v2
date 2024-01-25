@@ -1,13 +1,16 @@
 import Socials from "./Socials"
-
+import profilepic from "../assets/picofme2.png"
 const Profile = () => {
   return (
-    <div className=" bg-sky-200  h-full rounded-lg flex flex-col gap-5 justify-center items-center">
-                   <div className="rounded-full overflow-hidden ">
-                    {/* <img src="https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg" 
+    <div className=" bg-sky-200  h-full rounded-lg flex flex-col justify-center items-center p-4">
+                   {/* <div className="rounded-full overflow-hidden "> */}
+                    <img src={profilepic}
                           alt="Dipankar Prasad"
-                           className="w-full h-full "/> */}
-                    </div>
+                           className="w-7/12 h-7/12 "/>
+                    {/* </div> */}
+
+                    <p className="mt-4 font-semibold uppercase tracking-wide underline">Dipankar Prasad</p>
+                    <p>Connect with me</p>
                     <Socials/>
     </div>
   )
