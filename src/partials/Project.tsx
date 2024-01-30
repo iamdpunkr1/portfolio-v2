@@ -10,10 +10,11 @@ type ProjectProps = {
 
 const Project = ({imgUrls, title, summary, description, skills, projectLinks}: ProjectProps) => {
   return (
-    <div className=''>
+    <div className='flex flex-col justify-center h-full'>
         <img src={imgUrls[0]}
-               alt={title}
-                className="w-full rounded-lg py-4"/>
+              alt={title}
+              className="w-full rounded-lg"
+                />
             
             <div className="px-2">
                 <h2 className="font-bold text-2xl pt-4 pb-2 underline">

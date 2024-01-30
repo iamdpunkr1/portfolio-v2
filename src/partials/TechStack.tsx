@@ -549,9 +549,7 @@ const TechStack = () => {
                         />
                     </g>
                     </svg>
-
-
-                   </div>
+            </div>
   )
 }
 
