@@ -2,7 +2,7 @@ import Socials from "./Socials"
 import profilepic from "../assets/picofme2.png"
 const Profile = () => {
   return (
-    <div className=" bg-sky-200  h-full rounded-lg flex flex-col justify-center items-center p-4">
+    <div className="h-full rounded-xl flex flex-col justify-center items-center p-4 bg-slate-100 box-shadow border-solid border-slate-600">
                    {/* <div className="rounded-full overflow-hidden "> */}
                     <img src={profilepic}
                           alt="Dipankar Prasad"

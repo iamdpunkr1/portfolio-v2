@@ -1,12 +1,12 @@
 
 const TechStack = () => {
   return (
-    <div className=" flex justify-center items-center bg-indigo-200 rounded-lg gap-2 md:lg:gap-4 p-2 py-6  md:lg:p-4 md:lg:py-6">
-                <h1 className="text-2xl font-bold text-slate-700 hidden md:lg:block "> Tech Stack |</h1>
+    <div className=" flex justify-center items-center bg-slate-400 rounded-lg gap-2 md:lg:gap-4 p-2 py-6  md:lg:p-4 md:lg:py-6">
+                <h1 className="text-2xl font-bold text-white hidden md:lg:block "> Tech Stack |</h1>
 
                 {/* HTML */}
                 <svg
-                    className="w-12 h-12"
+                    className="w-12 h-12  hover:scale-110 transition-all 0.5s ease-in-out"
                     viewBox="-52.5 0 361 361"
                     version="1.1"
                     xmlns="http://www.w3.org/2000/svg"
@@ -87,7 +87,7 @@ const TechStack = () => {
 
                 {/* CSS */}
                 <svg
-                    className="w-12 h-12"
+                    className="w-12 h-12  hover:scale-110 transition-all 0.5s ease-in-out"
                     viewBox="-52.5 0 361 361"
                     version="1.1"
                     xmlns="http://www.w3.org/2000/svg"
@@ -162,7 +162,7 @@ const TechStack = () => {
 
                  {/* Javascript  */}
                  <svg
-                    className="ml-2 w-12 h-12"
+                    className="ml-2 w-12 h-12  hover:scale-110 transition-all 0.5s ease-in-out"
                     xmlns="http://www.w3.org/2000/svg"
                     aria-label="JavaScript"
                     role="img"
@@ -179,7 +179,7 @@ const TechStack = () => {
 
                 {/* Typescript */}
                 <svg
-                    className="w-12 h-12"
+                    className="w-12 h-12  hover:scale-110 transition-all 0.5s ease-in-out"
                     viewBox="0 0 73 73"
                     version="1.1"
                     xmlns="http://www.w3.org/2000/svg"
@@ -258,7 +258,7 @@ const TechStack = () => {
 
                {/* reactJS */}
                 <svg
-                 className="ml-2 w-12 h-12"
+                 className="ml-2 w-12 h-12  hover:scale-110 transition-all 0.5s ease-in-out"
                     viewBox="0 0 32 32"
                     id="Camada_1"
                     version="1.1"
@@ -292,7 +292,7 @@ const TechStack = () => {
 
                 {/* nodejs */}
                 <svg
-                    className="w-12 h-12"
+                    className="w-12 h-12  hover:scale-110 transition-all 0.5s ease-in-out"
                     viewBox="0 0 73 73"
                     version="1.1"
                     xmlns="http://www.w3.org/2000/svg"
@@ -451,7 +451,7 @@ const TechStack = () => {
                 
                 {/* MongoDB */}
                 <svg
-                className="w-12 h-12"
+                className="w-12 h-12  hover:scale-110 transition-all 0.5s ease-in-out"
                 viewBox="0 0 73 73"
                 version="1.1"
                 xmlns="http://www.w3.org/2000/svg"
@@ -519,7 +519,7 @@ const TechStack = () => {
 
                 {/* Express */}
                 <svg
-                     className="w-12 h-12"
+                     className="w-12 h-12  hover:scale-110 transition-all 0.5s ease-in-out"
                     fill="#000000"
                     viewBox="0 0 24 24"
                     role="img"
@@ -534,7 +534,7 @@ const TechStack = () => {
 
                 {/* tailwindCSS */}
                 <svg
-                    className="w-12 h-12"
+                    className="w-12 h-12  hover:scale-110 transition-all 0.5s ease-in-out"
                     viewBox="0 0 32 32"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="#000000"
